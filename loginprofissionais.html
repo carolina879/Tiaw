@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroprofissionais.css">
+    <script src="loginprofissionais.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="d-flex justify-content-between align-items-center p-3">
+        <button class="btn btn-voltar" onclick="history.back()">&#8592; Voltar</button>
+    </div>
+
+
+    <h1>Login</h1>
+    <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Entrar</button>
+        <p>Não possui uma conta? <a id="cad" href="cadastroprofissionais.html">Cadastre-se aqui</a></p>
+    </form>
+</body>
+</html>
